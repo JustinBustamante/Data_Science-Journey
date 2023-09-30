@@ -22,4 +22,3 @@ Adjust the k value to experiment with different numbers of clusters.
 
 Analyze the visualizations and clustering results to gain insights from your data.
 
-By following these steps, you can effectively perform clustering analysis on your dataset and explore the optimal number of clusters for your specific use case.
