@@ -13,12 +13,4 @@ Clustering Methods: The code provides examples of various clustering methods, in
 
 Optimal Cluster Number: The code includes the determination of the optimal number of clusters based on clustering tendency and silhouette analysis.
 
-Usage
-Load the dataset using read.csv.
-
-Use the perform_clustering function to perform clustering and visualize results. You can specify the dataset and the desired number of clusters (k).
-
-Adjust the k value to experiment with different numbers of clusters.
-
-Analyze the visualizations and clustering results to gain insights from your data.
 
