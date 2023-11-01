@@ -13,7 +13,9 @@ Contact
 Here are the technologies I've used so far in this learning journey:
 
 SQL/NoSQL: For database management and data manipulation.
+
 R: For statistical analysis and data visualization.
+
 Python: For backend development, data science projects, and general-purpose programming.
 
 #Repository Structure 📂
