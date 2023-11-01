@@ -19,10 +19,8 @@ R: For statistical analysis and data visualization.
 Python: For backend development, data science projects, and general-purpose programming.
 
 #Repository Structure 📂
-Beginner_Projects/: Small projects that helped me get my feet wet in programming.
-Intermediate_Projects/: More complex projects that involve multiple technologies.
-Advanced_Projects/: Standalone applications and projects that demonstrate a deep understanding of specific technologies.
-Notes_and_Resources/: A collection of study notes and useful resources.
+Projects are named by Function and/or Technology used.
+All folders inlcude the data sets needed and some include notes on the projects.
 
 #Getting Started 🚀
 To clone this repository, you can run the following command: git clone https://github.com/TheChangeArtist/Data_Science-Journey.git
