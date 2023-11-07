@@ -1,6 +1,6 @@
 Product Bundling Recommendation System
 Overview
-This Jupyter Notebook aims to build a product bundling recommendation system using machine learning and data mining techniques. The system suggests bundles of products that are often bought together.
+This notebook aims to build a product bundling recommendation system using machine learning and data mining techniques. The system suggests bundles of products that are often bought together.
 
 Data Source
 The dataset used is the Sales Transactions Dataset Weekly, which can be found here.
