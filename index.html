@@ -36,18 +36,66 @@
             <li>
                 <a href="https://github.com/JustinBustamante/Data_Science-Journey/tree/main/Customer%20Segmentation">Customer Segmentation</a>
                 <!-- Add the project summary here -->
-                <p>In this data science project, I explored a Sales Transactions Dataset to gain insights into customer behavior and segment customers effectively. The primary objective was to identify distinct customer groups based on their purchase patterns.</p>
-                <p>This project involved data preprocessing, determining the optimal number of clusters, performing K-Means clustering, visualizing the clusters, and interpreting the results. It provides valuable insights for marketing and sales strategies.</p>
+                <!-- Project: Customer Segmentation with K-Means Clustering -->
+<section>
+    <h3>Customer Segmentation with K-Means Clustering</h3>
+    <p>This project focuses on customer segmentation using K-Means clustering, a powerful unsupervised machine learning technique. The objective is to categorize customers into distinct groups based on their purchasing behavior using a dataset of sales transactions.</p>
+
+    <h4>Key Steps:</h4>
+    <ol>
+        <li><strong>Data Loading:</strong> The project begins by loading a dataset containing sales transaction information. It includes features like transaction time, normalized data, and raw data.</li>
+        <li><strong>Data Preprocessing and Scaling:</strong> The data is standardized using StandardScaler to ensure that all features have the same scale. This step is crucial for K-Means clustering.</li>
+        <li><strong>Determining the Optimal Number of Clusters:</strong> The Elbow Method and Silhouette Score are used to find the optimal number of clusters. This helps decide the appropriate division of customers.</li>
+        <li><strong>K-Means Clustering:</strong> K-Means clustering is performed with the optimal number of clusters. Customer data is grouped into clusters, and cluster labels are added to the original dataset.</li>
+        <li><strong>Visualization:</strong> The clusters are visualized using the first two principal components, providing insights into the grouping of customers based on their purchase behavior.</li>
+        <li><strong>Interpretation of Clusters:</strong> The project interprets the clusters by calculating the mean values of features within each cluster. This analysis helps understand the characteristics of customers in each group.</li>
+        <li><strong>Conclusion and Recommendations:</strong> Based on the cluster characteristics, the project provides recommendations for marketing and business strategies tailored to each customer segment. These recommendations aim to enhance customer engagement and satisfaction.</li>
+    </ol>
+</section>
+
                 <!-- End of project summary -->
             </li>
             <li>
                 <a href="https://github.com/JustinBustamante/Data_Science-Journey/tree/main/Fraud%20Detection">Fraud Detection</a>
                 <!-- Add the project summary here -->
+                <!-- Project: Fraud Detection with Random Forest Classifier -->
+<section>
+    <h3>Fraud Detection with Random Forest Classifier</h3>
+    <p>This project focuses on fraud detection using a Random Forest Classifier, a popular machine learning algorithm for classification tasks. The objective is to identify fraudulent transactions in a dataset and evaluate the model's performance.</p>
+
+    <h4>Key Steps:</h4>
+    <ol>
+        <li><strong>Data Loading:</strong> The project begins by loading the dataset from a CSV file. The dataset likely contains information about transactions, including features like transaction time, card type, location, purchase category, transaction amount, customer age, and more.</li>
+        <li><strong>Data Preprocessing:</strong> The data is preprocessed to prepare it for machine learning. The 'transaction_time' column is converted to datetime, and additional features like 'hour' and 'day_of_week' are extracted, which can provide valuable temporal information.</li>
+        <li><strong>Feature Engineering:</strong> The project selects columns for one-hot encoding and standardization. Categorical features such as 'card_type', 'location', and 'purchase_category' are one-hot encoded, while numerical features like 'amount', 'customer_age', 'hour', and 'day_of_week' are standardized.</li>
+        <li><strong>Column Transformation:</strong> The 'ColumnTransformer' is used to apply the defined transformations to the dataset efficiently.</li>
+        <li><strong>Data Splitting:</strong> The dataset is split into training and testing sets using the 'train_test_split' function. This step ensures that the model's performance can be evaluated on unseen data.</li>
+        <li><strong>Model Training:</strong> A Random Forest Classifier is initialized and trained using the training data. The 'n_estimators' parameter is set to 100, and 'random_state' is fixed for reproducibility.</li>
+        <li><strong>Model Evaluation:</strong> The trained model is used to make predictions on the testing set. Confusion matrix and classification report metrics are calculated to assess the model's performance in detecting fraudulent transactions.</li>
+        <li><strong>Results Output:</strong> The project concludes by printing the results, including the confusion matrix and classification report, which provide insights into the model's accuracy, precision, recall, and F1-score in identifying fraudulent transactions.</li>
+    </ol>
+</section>
+
                 <!-- Your project summary for "Fraud Detection" here -->
             </li>
             <li>
                 <a href="https://github.com/JustinBustamante/Data_Science-Journey/tree/main/Movie%20Recommendation">Movie Recommendation</a>
                 <!-- Add the project summary here -->
+                <!-- Project: Movie Recommendation -->
+<section>
+    <h3>Movie Recommendation</h3>
+    <p>The Movie Recommendation project focuses on building a movie recommendation system that suggests movies to users based on their preferences and movie similarities. This system combines both content-based and collaborative filtering approaches to provide personalized movie recommendations.</p>
+
+    <h4>Key Steps:</h4>
+    <ol>
+        <li><strong>Data Loading:</strong> The project begins by loading two essential datasets, 'movies.csv' and 'ratings.csv,' which contain information about movies and user ratings.</li>
+        <li><strong>Content-Based Filtering:</strong> Content-based filtering involves analyzing movie genres using TF-IDF (Term Frequency-Inverse Document Frequency) and computing cosine similarities between movies based on their genre descriptions. This helps identify movies with similar content.</li>
+        <li><strong>Collaborative Filtering:</strong> Collaborative filtering is implemented by creating a user-item matrix of movie ratings. Singular Value Decomposition (SVD) is applied to this matrix to extract latent factors, and predicted movie ratings are generated. Nearest Neighbors (KNN) is used to find similar users based on their movie preferences, and recommendations are made based on their preferences.</li>
+        <li><strong>Hybrid Recommendations:</strong> The project offers hybrid recommendations, combining content-based and collaborative filtering. Users can receive movie suggestions based on their preferences and movie similarities.</li>
+    </ol>
+    <p>The movie recommendation system provides users with personalized movie suggestions, enhancing their movie-watching experience by recommending movies that align with their interests and preferences.</p>
+</section>
+
                 <!-- Your project summary for "Movie Recommendation" here -->
             </li>
             <li>
