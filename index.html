@@ -43,6 +43,24 @@
             <li>
                 <a href="https://github.com/JustinBustamante/Data_Science-Journey/tree/main/Fraud%20Detection">Fraud Detection</a>
                 <!-- Add the project summary here -->
+                <!-- Project: Fraud Detection with Random Forest Classifier -->
+<section>
+    <h3>Fraud Detection with Random Forest Classifier</h3>
+    <p>This project focuses on fraud detection using a Random Forest Classifier, a popular machine learning algorithm for classification tasks. The objective is to identify fraudulent transactions in a dataset and evaluate the model's performance.</p>
+
+    <h4>Key Steps:</h4>
+    <ol>
+        <li><strong>Data Loading:</strong> The project begins by loading the dataset from a CSV file. The dataset likely contains information about transactions, including features like transaction time, card type, location, purchase category, transaction amount, customer age, and more.</li>
+        <li><strong>Data Preprocessing:</strong> The data is preprocessed to prepare it for machine learning. The 'transaction_time' column is converted to datetime, and additional features like 'hour' and 'day_of_week' are extracted, which can provide valuable temporal information.</li>
+        <li><strong>Feature Engineering:</strong> The project selects columns for one-hot encoding and standardization. Categorical features such as 'card_type', 'location', and 'purchase_category' are one-hot encoded, while numerical features like 'amount', 'customer_age', 'hour', and 'day_of_week' are standardized.</li>
+        <li><strong>Column Transformation:</strong> The 'ColumnTransformer' is used to apply the defined transformations to the dataset efficiently.</li>
+        <li><strong>Data Splitting:</strong> The dataset is split into training and testing sets using the 'train_test_split' function. This step ensures that the model's performance can be evaluated on unseen data.</li>
+        <li><strong>Model Training:</strong> A Random Forest Classifier is initialized and trained using the training data. The 'n_estimators' parameter is set to 100, and 'random_state' is fixed for reproducibility.</li>
+        <li><strong>Model Evaluation:</strong> The trained model is used to make predictions on the testing set. Confusion matrix and classification report metrics are calculated to assess the model's performance in detecting fraudulent transactions.</li>
+        <li><strong>Results Output:</strong> The project concludes by printing the results, including the confusion matrix and classification report, which provide insights into the model's accuracy, precision, recall, and F1-score in identifying fraudulent transactions.</li>
+    </ol>
+</section>
+
                 <!-- Your project summary for "Fraud Detection" here -->
             </li>
             <li>
