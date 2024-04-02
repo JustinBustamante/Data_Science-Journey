@@ -4,6 +4,7 @@ This notebook aims to build a product bundling recommendation system using machi
 
 Data Source
 The dataset used is the Sales Transactions Dataset Weekly, which can be found here.
+https://www.kaggle.com/datasets/crawford/weekly-sales-transactions
 
 Key Features
 Data Preprocessing
